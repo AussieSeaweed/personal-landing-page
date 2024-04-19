@@ -1,5 +1,5 @@
 canvas {
-  position: fixed !important;
-  top: 0;
-  z-index: -1 !important;
+	position: fixed !important;
+	top: 0;
+	z-index: -1 !important;
 }
