@@ -16,6 +16,11 @@ const logos = [
 		alt: 'Logo of the Copland OS, depicted in Serial Experiments Lain',
 		href: 'https://en.wikipedia.org/wiki/Copland_(operating_system)',
 	},
+	{
+		src: '/images/民-bronze.svg',
+		alt: 'Character 民 (4-stroke traditional Kangxi radical 083 氏 + 1 stroke) in the bronze script style',
+		href: 'https://en.wiktionary.org/wiki/民',
+	},
 ]
 const index = Math.floor(Math.random() * logos.length)
 const logo = logos[index]
