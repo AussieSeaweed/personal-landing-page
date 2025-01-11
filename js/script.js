@@ -22,8 +22,8 @@ const logos = [
 		href: 'https://en.wiktionary.org/wiki/民',
 	},
 ]
-const index = Math.floor(Math.random() * logos.length)
-const logo = logos[index]
+const logoIndex = Math.floor(Math.random() * logos.length)
+const logo = logos[logoIndex]
 const logoImage = document.getElementById('logo-image')
 const logoAnchor = document.getElementById('logo-anchor')
 logoImage.src = logo.src
