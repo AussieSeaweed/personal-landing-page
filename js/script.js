@@ -21,6 +21,11 @@ const logos = [
 		alt: 'Character 民 (4-stroke traditional Kangxi radical 083 氏 + 1 stroke) in the bronze script style',
 		href: 'https://en.wiktionary.org/wiki/民',
 	},
+	{
+		src: 'images/roh-piaget.png',
+		alt: 'Late South Korean President Roh Moo-Hyun wearing a Piaget luxury watch',
+		href: 'https://en.wikipedia.org/wiki/Roh_Moo-hyun#Bribery_allegations',
+	},
 ]
 const logoIndex = Math.floor(Math.random() * logos.length)
 const logo = logos[logoIndex]
